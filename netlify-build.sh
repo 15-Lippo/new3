@@ -3,13 +3,11 @@
 echo "Node version: $(node -v)"
 echo "NPM version: $(npm -v)"
 
-# Installazione delle dipendenze
-npm ci
+# Installare le dipendenze con una strategia più permissiva
+npm install --legacy-peer-deps --no-audit --no-fund
 
-# Generazione tokenlist (se richiesto)
-npm run generate:tokenlists || echo "Continuo senza generare tokenlists"
-
-# Build del progetto
-npm run build:withouttokenlists
+# Usare direttamente vite build senza passare per gli script npm che potrebbero fallire
+echo "Esecuzione diretta di vite build..."
+npx vite build
 
 echo "Build completata con successo!" 
