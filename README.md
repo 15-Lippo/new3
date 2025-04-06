@@ -3,6 +3,7 @@
 Un'applicazione per la gestione della liquidità decentralizzata e il trading di criptovalute basata su LisproCoin.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-id/deploy-status)](https://app.netlify.com/sites/lisprocoin/deploys)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=lisprocoin)](https://lisprocoin.vercel.app)
 
 ## Caratteristiche
 
@@ -44,19 +45,35 @@ npm run build
 yarn build
 ```
 
+## Deploy su Vercel
+
+Il modo più semplice e affidabile per deployare questa applicazione è utilizzare Vercel:
+
+1. Crea un account su [Vercel](https://vercel.com/) se non ne hai già uno
+2. Installa Vercel CLI: `npm install -g vercel`
+3. Nel terminale, nella directory del progetto, esegui: `vercel`
+4. Segui le istruzioni per completare il deploy
+
+In alternativa, puoi fare il deploy direttamente da GitHub:
+1. Forka questo repository
+2. Accedi a [Vercel](https://vercel.com/)
+3. Clicca su "New Project" e importa il repository
+4. Vercel rileverà automaticamente le configurazioni
+5. Clicca su "Deploy"
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2F15-Lippo%2Fnew3)
+
 ## Deploy su Netlify
 
-Questa applicazione è configurata per essere facilmente deployata su Netlify:
+Questa applicazione è configurata per essere deployata anche su Netlify:
 
 1. Crea un account su [Netlify](https://www.netlify.com/) se non ne hai già uno
 2. Clicca sul pulsante "Nuovo sito da Git" nella dashboard Netlify
 3. Collega il tuo account GitHub e seleziona il repository
 4. Configura le impostazioni di build:
-   - Build command: `npm run build`
+   - Build command: `bash netlify-build.sh`
    - Publish directory: `dist`
 5. Clicca su "Deploy site"
-
-In alternativa, puoi utilizzare il pulsante qui sotto per un deploy rapido:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/15-Lippo/new3)
 
