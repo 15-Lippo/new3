@@ -1,8 +1,8 @@
 # LisproCoin App
 
-Un'applicazione decentralizzata per la gestione di liquidità e trading di criptovalute, basata su LisproCoin.
+Un'applicazione per la gestione della liquidità decentralizzata e il trading di criptovalute basata su LisproCoin.
 
-![LisproCoin Logo](src/assets/images/logo-light.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-id/deploy-status)](https://app.netlify.com/sites/lisprocoin/deploys)
 
 ## Caratteristiche
 
@@ -14,15 +14,15 @@ Un'applicazione decentralizzata per la gestione di liquidità e trading di cript
 
 ## Requisiti
 
-- Node.js 14.x o superiore
-- NPM 7.x o superiore o Yarn 1.22.x o superiore
+- Node.js >= 14
+- NPM >= 7 o Yarn >= 1.22
 
 ## Installazione
 
 ```bash
 # Clona il repository
-git clone https://github.com/YourUsername/lisprocoin-app.git
-cd lisprocoin-app
+git clone https://github.com/15-Lippo/new3.git
+cd new3
 
 # Installa le dipendenze
 npm install
@@ -38,23 +38,45 @@ yarn dev
 ## Build per produzione
 
 ```bash
-# Compila e minifica per la produzione
+# Compila e minimizza per la produzione
 npm run build
 # oppure
 yarn build
 ```
 
+## Deploy su Netlify
+
+Questa applicazione è configurata per essere facilmente deployata su Netlify:
+
+1. Crea un account su [Netlify](https://www.netlify.com/) se non ne hai già uno
+2. Clicca sul pulsante "Nuovo sito da Git" nella dashboard Netlify
+3. Collega il tuo account GitHub e seleziona il repository
+4. Configura le impostazioni di build:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+5. Clicca su "Deploy site"
+
+In alternativa, puoi utilizzare il pulsante qui sotto per un deploy rapido:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/15-Lippo/new3)
+
 ## Contribuire
 
-Siamo aperti ai contributi! Si prega di leggere il file CONTRIBUTING.md per le linee guida.
+I contributi sono benvenuti! Per favore, segui questi passaggi:
+
+1. Fork del repository
+2. Crea un branch per la tua funzionalità (`git checkout -b feature/amazing-feature`)
+3. Commit delle tue modifiche (`git commit -m 'Aggiunta nuova funzionalità'`)
+4. Push al branch (`git push origin feature/amazing-feature`)
+5. Apri una Pull Request
 
 ## Licenza
 
-Questo progetto è sotto licenza MIT. Vedere il file LICENSE per i dettagli.
+Distribuito con licenza MIT. Vedi `LICENSE` per maggiori informazioni.
 
-## Contattaci
+## Contatti
 
-- Sito Web: [lisprocoin.fi](https://lisprocoin.fi)
-- Email: contact@lisprocoin.fi
+- Sito web: [lisprocoin.fi](https://lisprocoin.fi)
+- Email: [contact@lisprocoin.fi](mailto:contact@lisprocoin.fi)
 - Twitter: [@LisproCoin](https://twitter.com/LisproCoin)
-- Discord: [discord.lisprocoin.fi](https://discord.lisprocoin.fi)
+- Discord: [LisproCoin Community](https://discord.gg/lisprocoin)
