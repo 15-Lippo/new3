@@ -4,6 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "16"
+  GO_VERSION = "1.20.0"
+  GO_IMPORT_PATH = ""
+  NPM_VERSION = "8.19.3"
+  HUGO_VERSION = "0.0.0"
 
 [[redirects]]
   from = "/*"
