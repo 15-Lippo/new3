@@ -22,8 +22,8 @@ Un'applicazione per la gestione della liquidità decentralizzata e il trading di
 
 ```bash
 # Clona il repository
-git clone https://github.com/15-Lippo/new3.git
-cd new3
+git clone https://github.com/Krustycoin0/ba.git
+cd ba
 
 # Installa le dipendenze
 npm install
@@ -55,13 +55,23 @@ Il modo più semplice e affidabile per deployare questa applicazione è utilizza
 4. Segui le istruzioni per completare il deploy
 
 In alternativa, puoi fare il deploy direttamente da GitHub:
-1. Forka questo repository
+1. Forka o clona questo repository
 2. Accedi a [Vercel](https://vercel.com/)
 3. Clicca su "New Project" e importa il repository
 4. Vercel rileverà automaticamente le configurazioni
 5. Clicca su "Deploy"
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2F15-Lippo%2Fnew3)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FKrustycoin0%2Fba)
+
+## Deploy tramite Fork e Vercel
+
+Se non hai accesso al repository originale, puoi seguire questi passaggi:
+
+1. Forka il repository su [GitHub](https://github.com/Krustycoin0/ba)
+2. Clona il tuo fork: `git clone https://github.com/TUO-USERNAME/ba.git`
+3. Apporta le modifiche necessarie
+4. Fai il push al tuo fork: `git push origin master`
+5. Vai su [Vercel](https://vercel.com/) e importa il tuo fork per il deploy
 
 ## Deploy su Netlify
 
@@ -75,7 +85,7 @@ Questa applicazione è configurata per essere deployata anche su Netlify:
    - Publish directory: `dist`
 5. Clicca su "Deploy site"
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/15-Lippo/new3)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Krustycoin0/ba)
 
 ## Contribuire
 

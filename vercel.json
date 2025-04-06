@@ -13,6 +13,7 @@
   ],
   "github": {
     "enabled": true,
-    "silent": false
+    "silent": false,
+    "repo": "Krustycoin0/ba"
   }
 } 
