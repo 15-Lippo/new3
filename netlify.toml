@@ -3,9 +3,28 @@
   command = "bash netlify-build.sh"
 
 [build.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "16.20.2"
   NPM_VERSION = "8.19.3"
-  NODE_OPTIONS = "--max_old_space_size=4096"
+  NODE_OPTIONS = "--max_old_space_size=8192"
+  CI = "false"
+  NETLIFY_USE_YARN = "false"
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.images]
+  compress = true
 
 [[redirects]]
   from = "/*"
