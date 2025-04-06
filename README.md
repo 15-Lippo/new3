@@ -1,109 +1,94 @@
 # LisproCoin App
 
-Un'applicazione per la gestione della liquidità decentralizzata e il trading di criptovalute basata su LisproCoin.
+Un'applicazione per la gestione decentralizzata della liquidità e trading di criptovalute basata su LisproCoin.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-id/deploy-status)](https://app.netlify.com/sites/lisprocoin/deploys)
 [![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=lisprocoin)](https://lisprocoin.vercel.app)
 
 ## Caratteristiche
 
-- **Scambio di token**: Scambia facilmente tra diverse criptovalute
-- **Pools di liquidità**: Crea e gestisci pool di liquidità
-- **Grafici di mercato**: Visualizza grafici dettagliati delle criptovalute
-- **Portfolio**: Monitora i tuoi investimenti in un unico posto
-- **Interfaccia intuitiva**: Design moderno e facile da usare
+- Scambio di token in modo decentralizzato
+- Gestione pool di liquidità
+- Grafici di mercato interattivi
+- Monitoraggio del portafoglio
+- Interfaccia intuitiva e user-friendly
 
 ## Requisiti
 
-- Node.js >= 14
-- NPM >= 7 o Yarn >= 1.22
+- Node.js 14.x o superiore
+- NPM 7.x o Yarn 1.22.x
 
 ## Installazione
 
-```bash
-# Clona il repository
+1. Clona il repository
+```
 git clone https://github.com/Krustycoin0/ba.git
 cd ba
+```
 
-# Installa le dipendenze
+2. Installa le dipendenze
+```
 npm install
-# oppure
-yarn install
+```
+o
+```
+yarn
+```
 
-# Avvia il server di sviluppo
+3. Avvia il server di sviluppo
+```
 npm run dev
-# oppure
+```
+o
+```
 yarn dev
 ```
 
-## Build per produzione
+## Build per la produzione
 
-```bash
-# Compila e minimizza per la produzione
+```
 npm run build
-# oppure
+```
+o
+```
 yarn build
 ```
 
-## Deploy su Vercel
+## Deploy dell'applicazione
 
-Il modo più semplice e affidabile per deployare questa applicazione è utilizzare Vercel:
+### Deploy con Vercel (raccomandato)
 
-1. Crea un account su [Vercel](https://vercel.com/) se non ne hai già uno
-2. Installa Vercel CLI: `npm install -g vercel`
-3. Nel terminale, nella directory del progetto, esegui: `vercel`
-4. Segui le istruzioni per completare il deploy
+Il modo più semplice per deployare l'applicazione è utilizzare Vercel:
 
-In alternativa, puoi fare il deploy direttamente da GitHub:
-1. Forka o clona questo repository
-2. Accedi a [Vercel](https://vercel.com/)
-3. Clicca su "New Project" e importa il repository
-4. Vercel rileverà automaticamente le configurazioni
-5. Clicca su "Deploy"
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKrustycoin0%2Fba)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FKrustycoin0%2Fba)
+### Deploy manuale su GitHub
 
-## Deploy tramite Fork e Vercel
+Se non hai accesso al repository originale, puoi seguire questi passi:
 
-Se non hai accesso al repository originale, puoi seguire questi passaggi:
+1. Crea un nuovo repository su GitHub 
+2. Prepara un file zip del progetto (escludi node_modules e .git)
+3. Scarica il progetto da questa pagina cliccando sul pulsante "Code" -> "Download ZIP"
+4. Decomprimi il file e caricalo nel tuo repository personale
+5. Segui le istruzioni di deploy sopra indicate
 
-1. Forka il repository su [GitHub](https://github.com/Krustycoin0/ba)
-2. Clona il tuo fork: `git clone https://github.com/TUO-USERNAME/ba.git`
-3. Apporta le modifiche necessarie
-4. Fai il push al tuo fork: `git push origin master`
-5. Vai su [Vercel](https://vercel.com/) e importa il tuo fork per il deploy
+### Deploy con Netlify
 
-## Deploy su Netlify
+Alternativa a Vercel, puoi utilizzare Netlify:
 
-Questa applicazione è configurata per essere deployata anche su Netlify:
-
-1. Crea un account su [Netlify](https://www.netlify.com/) se non ne hai già uno
-2. Clicca sul pulsante "Nuovo sito da Git" nella dashboard Netlify
-3. Collega il tuo account GitHub e seleziona il repository
-4. Configura le impostazioni di build:
-   - Build command: `bash netlify-build.sh`
-   - Publish directory: `dist`
-5. Clicca su "Deploy site"
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Krustycoin0/ba)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Krustycoin0/ba)
 
 ## Contribuire
 
-I contributi sono benvenuti! Per favore, segui questi passaggi:
-
-1. Fork del repository
-2. Crea un branch per la tua funzionalità (`git checkout -b feature/amazing-feature`)
-3. Commit delle tue modifiche (`git commit -m 'Aggiunta nuova funzionalità'`)
-4. Push al branch (`git push origin feature/amazing-feature`)
-5. Apri una Pull Request
+Le contribuzioni sono benvenute! Per favore, invia una pull request o apri un issue per discutere i cambiamenti proposti.
 
 ## Licenza
 
-Distribuito con licenza MIT. Vedi `LICENSE` per maggiori informazioni.
+Questo progetto è sotto licenza MIT.
 
 ## Contatti
 
 - Sito web: [lisprocoin.fi](https://lisprocoin.fi)
 - Email: [contact@lisprocoin.fi](mailto:contact@lisprocoin.fi)
 - Twitter: [@LisproCoin](https://twitter.com/LisproCoin)
-- Discord: [LisproCoin Community](https://discord.gg/lisprocoin)
+- Discord: [Entra nel server](https://discord.gg/lisprocoin)
